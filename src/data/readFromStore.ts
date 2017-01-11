@@ -156,7 +156,7 @@ match fragments.`);
   // If it's 1, we don't want to return anything, if it's 2 we want to match. We can't tell the
   // difference, so for now, we just do our best to resolve the fragment but turn on partial data
   context.returnPartialData = true;
-  return true;
+  return false;
 };
 
 const readStoreResolver: Resolver = (
