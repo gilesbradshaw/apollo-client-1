@@ -10,8 +10,8 @@
     "**/.DS_Store": true,
     "node_modules": true,
     "test-lib": true,
-    "lib": true,
-    "dist": true,
+    //"lib": true,
+    //"dist": true,
     "coverage": true,
     "npm": true
   },
